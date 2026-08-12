@@ -1,0 +1,16 @@
+
+def create_math_lists(max_num):
+    numbers = []
+    squares = []
+    cubes = []
+    
+    for i in range(1, max_num + 1):
+        numbers.append(i)
+        squares.append(i * i)      
+        cubes.append(i * i * i)    
+        
+    print("Numbers:", numbers)
+    print("Squares:", squares)
+    print("Cubes:  ", cubes)
+
+create_math_lists(5)
